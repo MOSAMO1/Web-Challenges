@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../../../githup projects/Web-Challenges"
+	},
+	{
+		"path": "../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "space-tourism-website-main"
+  }
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #d0d6f9;
+}
+
+body {
+  height: 42rem;
+}
+body #cover {
+  background: url(/src/assets/home/background-home-mobile.jpg);
+  background-size: cover;
+  height: 100%;
+}
+body h1 {
+  color: white;
+  font-size: 6rem;
+  font-family: Bellefair;
+}
+body .subtitle {
+  font-size: large;
+  font-family: "Barlow Condensed";
+}
+body p {
+  font-family: Barlow;
+}/*# sourceMappingURL=index.css.map */
