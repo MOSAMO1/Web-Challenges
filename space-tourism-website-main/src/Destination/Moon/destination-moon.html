@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="/space-tourism-website-main/public/Destination/Moon/output.css"
+    />
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body>
+    <header class="flex flex-row justify-between">
+      <div>
+        <img
+          class="ml-4 mt-2"
+          src="/space-tourism-website-main/src/assets/shared/logo.svg"
+          alt=""
+        />
+      </div>
+
+      <ul id="pages-links" class="flex flex-row gap-2 p-5 text-white">
+        <li>Home</li>
+        <li>Destination</li>
+        <li>Crew</li>
+        <li>Technology</li>
+      </ul>
+    </header>
+    <div id="content" class="p-4 flex flex-col gap-4">
+      <h1 class="text-white"><span>01</span> Pick your destination</h1>
+      <img
+        id="Planet"
+        class="m-auto mt-4"
+        src="/space-tourism-website-main/src/assets/destination/image-moon.webp"
+        alt=""
+        width="200rem"
+      />
+      <div class="flex flex-row gap-4 justify-center text-white">
+        <a href="#">Moon</a>
+        <a href="#">Mars</a>
+        <a href="#">Europa</a>
+        <a href="#">Titan</a>
+      </div>
+    </div>
+    <section class="p-4 flex flex-col gap-4 items-center">
+      <h1 class="text-white text-6xl tracking-widest">Moon</h1>
+      <p class="text-center">
+        See our planet as you’ve never seen it before. A perfect relaxing trip
+        away to help regain perspective and come back refreshed. While you’re
+        there, take in some history by visiting the Luna 2 and Apollo 11 landing
+        sites.
+      </p>
+    </section>
+
+    <footer class="p-4">
+      <hr />
+      <div class="flex flex-row gap-8 justify-evenly text-white">
+        <div class="flex flex-col items-center">
+          <p>Avg. distance</p>
+          <h1 class="text-2xl">384,400 km</h1>
+        </div>
+        <div class="flex flex-col items-center">
+          <p>Est. travel time</p>
+          <h1 class="text-2xl">3 days</h1>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
