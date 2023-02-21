@@ -12,20 +12,60 @@
 body {
   height: 42rem;
   #cover {
-    background: url(/src/assets/home/background-home-mobile.jpg);
+    background: url(/space-tourism-website-main/src/assets/home/background-home-mobile.jpg);
+
     background-size: cover;
     height: 100%;
   }
-  h1 {
-    color: white;
-    font-size: 6rem;
-    font-family: Bellefair;
+  header {
+    #head-bar {
+      background: #151923;
+    }
+    ul {
+      li {
+        color: white;
+        padding: 1rem;
+      }
+    }
   }
-  .subtitle {
-    font-size: large;
-    font-family: "Barlow Condensed";
-  }
-  p {
-    font-family: Barlow;
+  .content {
+    h1 {
+      color: white;
+      font-size: 6rem;
+      font-family: Bellefair;
+    }
+    .subtitle {
+      font-size: large;
+      font-family: "Barlow Condensed";
+    }
+    p {
+      font-family: Barlow;
+    }
+    #Explore {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10rem;
+      width: 10rem;
+      border-radius: 50%;
+      transition: background 0.3s ease-in;
+      a {
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #fff;
+        height: 7rem;
+        width: 7rem;
+        border-radius: 50%;
+        &:hover {
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+      }
+      &:hover {
+        background: #979797;
+      }
+    }
   }
 }
